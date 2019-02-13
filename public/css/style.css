@@ -9659,12 +9659,6 @@ h3 {
   font-family: poppins;
   src: url("../../public/fonts/Poppins-Regular.ttf") format("truetype");
 }
-img {
-  height: 2rem;
-  width: 10rem;
-  margin-top: 3rem;
-}
-
 nav #connexion {
   font-size: 0.8rem;
 }
@@ -9706,6 +9700,22 @@ nav .divButton {
 #sectionShop button {
   background-color: #bd584e;
   letter-spacing: 1px;
+}
+
+#sectionServices .row .col-4 a {
+  position: absolute;
+  text-decoration: none;
+  font-size: 1.7rem;
+  color: white;
+  border-bottom: 1px solid white;
+  padding: 6px;
+  font-family: poppins;
+  letter-spacing: 0.1rem;
+}
+
+#sectionRecentClothes h4 {
+  font-family: poppins;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
