@@ -9656,7 +9656,7 @@ h3 {
   }
 }
 @font-face {
-  font-family: "poppins";
+  font-family: poppins;
   src: url("../../public/fonts/Poppins-Regular.ttf") format("truetype");
 }
 img {
@@ -9685,9 +9685,27 @@ nav .divButton {
 #sectionShop {
   background-color: #f3f3f3;
 }
+#sectionShop h1 {
+  font-family: poppins;
+  color: black;
+  font-weight: 800;
+}
+#sectionShop h3 {
+  font-family: poppins;
+  color: #bd584e;
+}
+#sectionShop p {
+  font-family: poppins;
+  color: #909090;
+  font-size: 1rem;
+}
 #sectionShop img {
-  height: 40rem;
+  height: 45rem;
   width: 38rem;
+}
+#sectionShop button {
+  background-color: #bd584e;
+  letter-spacing: 1px;
 }
 
 /*# sourceMappingURL=style.css.map */
