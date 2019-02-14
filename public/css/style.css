@@ -9759,4 +9759,23 @@ nav .divButton {
   padding-top: 0.8rem;
 }
 
+#sectionParallax .parallax {
+  background-image: url("../../images/cta-bg.jpg");
+  min-height: 310px;
+  min-width: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#sectionParallax .textParallax {
+  font-family: poppins bold;
+  position: absolute;
+  color: white;
+  margin-left: 18rem;
+}
+#sectionParallax .textParallax button {
+  background-color: #bd584e;
+}
+
 /*# sourceMappingURL=style.css.map */
