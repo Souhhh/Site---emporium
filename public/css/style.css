@@ -9659,6 +9659,10 @@ h3 {
   font-family: poppins;
   src: url("../../public/fonts/Poppins-Regular.ttf") format("truetype");
 }
+@font-face {
+  font-family: poppins bold;
+  src: url("../../public/fonts/Poppins-Bold.ttf");
+}
 nav #connexion {
   font-size: 0.8rem;
 }
@@ -9714,8 +9718,45 @@ nav .divButton {
 }
 
 #sectionRecentClothes h4 {
+  font-family: poppins bold;
+}
+#sectionRecentClothes img {
+  max-width: 100%;
+}
+#sectionRecentClothes h6 {
   font-family: poppins;
-  font-weight: bold;
+}
+#sectionRecentClothes p {
+  color: #bd584e;
+  font-family: poppins bold;
+}
+#sectionRecentClothes p span {
+  color: #c9c9c9;
+  text-decoration: line-through;
+  margin-right: 0.9rem;
+}
+#sectionRecentClothes a {
+  font-size: 1.1rem;
+  color: black;
+  font-family: poppins bold;
+  text-decoration: none;
+}
+#sectionRecentClothes img a:hover {
+  background-position: 0px -225px;
+  background-repeat: no-repeat;
+  display: block;
+}
+#sectionRecentClothes .rondSale {
+  height: 3rem;
+  width: 3rem;
+  background-color: #bd584e;
+  border-radius: 50%;
+  font-family: poppins bold;
+}
+#sectionRecentClothes .rondSale p {
+  color: white;
+  font-size: 0.8rem;
+  padding-top: 0.8rem;
 }
 
 /*# sourceMappingURL=style.css.map */

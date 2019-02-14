@@ -2,14 +2,13 @@
 @font-face 
     font-family: poppins
     src: url("../../public/fonts/Poppins-Regular.ttf") format("truetype")
+@font-face 
+    font-family: poppins bold
+    src: url("../../public/fonts/Poppins-Bold.ttf")
 
+// Déclaration de nouvelles variables pour les couleurs principales
 $main-color-rose : rgb(189, 88, 78)
 $main-color-gris : rgb(144, 144, 144)
-
-// img
-//     height: 2rem
-//     width: 10rem
-//     margin-top: 3rem
 
 nav
     #connexion
@@ -68,5 +67,39 @@ nav
 
 #sectionRecentClothes
     h4
+        font-family: poppins bold
+
+    img
+        max-width: 100%
+
+    h6
         font-family: poppins
-        font-weight: bold
+                    
+    p
+        color: $main-color-rose
+        font-family: poppins bold
+        span
+            color: #c9c9c9
+            text-decoration: line-through
+            margin-right: 0.9rem
+
+    a
+        font-size: 1.1rem
+        color: black
+        font-family: poppins bold
+        text-decoration: none
+    img a:hover 
+        background-position: 0px -225px
+        background-repeat: no-repeat
+        display: block
+
+    .rondSale
+        height: 3rem
+        width: 3rem
+        background-color: $main-color-rose
+        border-radius: 50%
+        font-family: poppins bold
+        p
+            color: white
+            font-size: 0.8rem
+            padding-top: 0.8rem
