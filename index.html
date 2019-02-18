@@ -2,196 +2,267 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Emporium</title>
-    <link rel="stylesheet" href="public/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Emporium</title>
+  <link rel="stylesheet" href="public/css/style.css">
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+
 </head>
 
 <body>
 
-    <!-- SECTION NAVBAR -->
-    <div class="section text-center mt-5">
-        <div class="container"><img src="images/logo.png" alt=""></div>
+  <!-- SECTION NAVBAR -->
+  <div class="section text-center mt-5">
+    <div class="container"><img src="images/logo.png" alt=""></div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-white mb-4">
+    <div class="collapse navbar-collapse justify-content-center mt-5" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active small mx-3" href="#">HOME <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link small mx-3" href="#">PRODUCT</a>
+        <a class="nav-item nav-link small mx-3" href="#">BLOG</a>
+        <a class="nav-item nav-link small mx-3" href="#">ELEMENTS</a>
+        <a class="nav-item nav-link small mx-3" href="#">ABOUT</a>
+        <a class="nav-item nav-link small mx-3" href="#">CONTACT</a>
+        <div class="text-right divButton">
+          <button class="btn btn-white carreBlanc"></button>
+          <button class="btn btn-dark carreNoir"></button>
+          <button id="connexion" type="button" class="btn btn-dark text-light">Connexion
+          </button>
+        </div>
+      </div>
+
     </div>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-white mb-4">
-        <div class="collapse navbar-collapse justify-content-center mt-5" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active small mx-3" href="#">HOME <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link small mx-3" href="#">PRODUCT</a>
-                <a class="nav-item nav-link small mx-3" href="#">BLOG</a>
-                <a class="nav-item nav-link small mx-3" href="#">ELEMENTS</a>
-                <a class="nav-item nav-link small mx-3" href="#">ABOUT</a>
-                <a class="nav-item nav-link small mx-3" href="#">CONTACT</a>
-                <div class="text-right divButton">
-                    <button class="btn btn-white carreBlanc"></button>
-                    <button class="btn btn-dark carreNoir"></button>
-                    <button id="connexion" type="button" class="btn btn-dark text-light">Connexion
-                    </button>
-                </div>
-            </div>
+  </nav>
 
+
+  <!-- SECTION SHOP AT EMPORIUM -->
+  <section id="sectionShop" class="container-fluid">
+    <div class="row align-items-center">
+      <div class="col-5 offset-1">
+
+        <div class="">
+          <h3 class="display-4">Shop at</h3>
+          <h1 class="display-1"> emporium.</h1>
+          <p>A wonderful serenity has taken possession of my entire soul, like thses sweet mornings of spring
+            which I enjoy with my.</p>
+          <button type="button" class="btn btn-rose rounded-pill text-light p-3 px-5"><small><strong>SALE
+                ITEMS</strong> </small>
+          </button>
         </div>
-
-    </nav>
-
-
-    <!-- SECTION SHOP AT EMPORIUM -->
-    <section id="sectionShop" class="container-fluid">
-        <div class="row align-items-center">
-            <div class="col-5 offset-1">
-
-                <div class="">
-                    <h3 class="display-4">Shop at</h3>
-                    <h1 class="display-1"> emporium.</h1>
-                    <p>A wonderful serenity has taken possession of my entire soul, like thses sweet mornings of spring
-                        which I enjoy with my.</p>
-                    <button type="button" class="btn btn-rose rounded-pill text-light p-3 px-5"><small><strong>SALE
-                                ITEMS</strong> </small>
-                    </button>
-                </div>
-            </div>
-            <div class="col-6">
-                <img class="img" src="images/slider-1.jpg" alt="">
-            </div>
-        </div>
-
-    </section>
-
-
-    <!-- SECTION SERVICES -->
-    <div id="sectionServices" class="container-fluid">
-        <div class="row mt-4 mb-5">
-            <div class="col-4 d-flex align-items-center justify-content-center">
-                <img src="images/services/service-1.jpg" class="img-fluid" alt="">
-                <a href=""><strong>Living Room</strong> </a>
-            </div>
-            <div class="col-4 d-flex align-items-center justify-content-center">
-                <img src="images/services/service-2.jpg" class="img-fluid" alt="">
-                <a href=""><strong>Sale Items</strong> </a>
-            </div>
-            <div class="col-4 d-flex align-items-center justify-content-center">
-                <img src="images/services/slider-3.jpg" class="img-fluid" alt="">
-                <a href=""><strong>Clothes</strong> </a>
-            </div>
-        </div>
+      </div>
+      <div class="col-6">
+        <img class="img" src="images/slider-1.jpg" alt="">
+      </div>
     </div>
 
-    <!-- SECTION RECENT CLOTHES -->
-    <div id="sectionRecentClothes" class="section text-center m-5">
-        <h4>Recent Products</h4>
-        <div class="container mt-5">
-            <!-- PREMIERE ROW D'IMAGES -->
-            <div class="row text-center">
-                <div class="col-4 text-dark">
-                    <img src="images/products_mini/product-luxry-sofa.jpg" class="img-fluid" alt="">
-                    <div class="mt-4">
-                        <a href="">Luxury Sofa</a>
-                        <p class="mt-2">$600.00</p>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <img src="images/products_mini/product-gloves.jpg" class="img-fluid" alt="">
-                    <div class="mt-4">
-                        <div class="row">
-                            <div class="col-2 offset-2">
-                                <div class="rondSale text-light">
-                                    <p>Sale !</p>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <a href="">Leather Gloves</a>
-                                <p class="mt-2"> <span>$34.00</span>$27.00</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <img src="images/products_mini/product-cups.jpg" class="img-fluid" alt="">
-                    <div class="mt-4">
-                        <a href="">Colorful Bowl</a>
-                        <p class="mt-2">$18.00</p>
-                    </div>
-                </div>
-            </div>
-            <!-- DEUXIÈME ROW D'IMAGES -->
-            <div class="row mt-5">
-                <div class="col-4">
-                    <img src="images/products_mini/product-bag.jpg" class="img-fluid" alt="">
-                    <div class="mt-4">
-                        <div class="row">
-                            <div class="col-2 offset-2">
-                                <div class="rondSale text-light">
-                                    <p>Sale !</p>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <a href="">Women Bag</a>
-                                <p class="mt-2"> <span>$420.00</span>$350.00</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <img src="images/products_mini/product-tshitr.jpg" class="img-fluid" alt="">
-                    <div class="mt-4">
-                        <a href="">Minimal T-Shirt</a>
-                        <p class="mt-2">$15.00</p>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <img src="images/products_mini/product-plates.jpg" class="img-fluid" alt="">
-                    <div class="mt-4">
-                        <a href="">Plates Set</a>
-                        <p class="mt-2">$30.00</p>
-                    </div>
-                </div>
-            </div>
-            <!-- TROISIÈME ROW D'IMAGES -->
-            <div class="row mt-5">
-                <div class="col-4">
-                    <img src="images/products_mini/product-modern-sofa.jpg" class="img-fluid" alt="">
-                    <div class="mt-4">
-                        <a href="">Modern Sofa</a>
-                        <p class="mt-2">$900.00</p>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <img src="images/products_mini/product-bed.jpg" class="img-fluid" alt="">
-                    <div class="mt-4">
-                        <a href="">Bed Linen</a>
-                        <p class="mt-2">$79.00</p>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <img src="images/products_mini/product-shoes.jpg" class="img-fluid" alt="">
-                    <div class="mt-4">
-                        <a href="">Minimal Shoes</a>
-                        <p class="mt-2">$60.00</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+  </section>
 
-    <!-- SECTION PARALLAX -->
-    <div id="sectionParallax" class="mt-5">
-        <div class="parallax"></div>
-        <div class="textParallax text-center">
-            <h1>Discover Thousands Of Great Products</h1>
-            <button type="button" class="btn btn-rose rounded-pill text-light p-3 px-5  mt-4"><small><strong>LEARN
-                        MORE</strong> </small>
-            </button>
+
+  <!-- SECTION SERVICES -->
+  <div id="sectionServices" class="container-fluid">
+    <div class="row mt-4 mb-5">
+      <div class="col-4 d-flex align-items-center justify-content-center">
+        <img src="images/services/service-1.jpg" class="img-fluid" alt="">
+        <a href=""><strong>Living Room</strong> </a>
+      </div>
+      <div class="col-4 d-flex align-items-center justify-content-center">
+        <img src="images/services/service-2.jpg" class="img-fluid" alt="">
+        <a href=""><strong>Sale Items</strong> </a>
+      </div>
+      <div class="col-4 d-flex align-items-center justify-content-center">
+        <img src="images/services/slider-3.jpg" class="img-fluid" alt="">
+        <a href=""><strong>Clothes</strong> </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION RECENT CLOTHES -->
+  <div id="sectionRecentClothes" class="section text-center m-5">
+    <h4>Recent Products</h4>
+    <div class="container mt-5">
+      <!-- PREMIERE ROW D'IMAGES -->
+      <div class="row text-center">
+        <div class="col-4 text-dark">
+          <img src="images/products_mini/product-luxry-sofa.jpg" class="img-fluid" alt="">
+          <div class="mt-4">
+            <a href="">Luxury Sofa</a>
+            <p class="mt-2">$600.00</p>
+          </div>
         </div>
-        <div class="parallax mb-5"></div>
+        <div class="col-4">
+          <img src="images/products_mini/product-gloves.jpg" class="img-fluid" alt="">
+          <div class="mt-4">
+            <div class="row">
+              <div class="col-2 offset-2">
+                <div class="rondSale text-light">
+                  <p>Sale !</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <a href="">Leather Gloves</a>
+                <p class="mt-2"> <span>$34.00</span>$27.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <img src="images/products_mini/product-cups.jpg" class="img-fluid" alt="">
+          <div class="mt-4">
+            <a href="">Colorful Bowl</a>
+            <p class="mt-2">$18.00</p>
+          </div>
+        </div>
+      </div>
+      <!-- DEUXIÈME ROW D'IMAGES -->
+      <div class="row mt-5">
+        <div class="col-4">
+          <img src="images/products_mini/product-bag.jpg" class="img-fluid" alt="">
+          <div class="mt-4">
+            <div class="row">
+              <div class="col-2 offset-2">
+                <div class="rondSale text-light">
+                  <p>Sale !</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <a href="">Women Bag</a>
+                <p class="mt-2"> <span>$420.00</span>$350.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <img src="images/products_mini/product-tshitr.jpg" class="img-fluid" alt="">
+          <div class="mt-4">
+            <a href="">Minimal T-Shirt</a>
+            <p class="mt-2">$15.00</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <img src="images/products_mini/product-plates.jpg" class="img-fluid" alt="">
+          <div class="mt-4">
+            <a href="">Plates Set</a>
+            <p class="mt-2">$30.00</p>
+          </div>
+        </div>
+      </div>
+      <!-- TROISIÈME ROW D'IMAGES -->
+      <div class="row mt-5">
+        <div class="col-4">
+          <img src="images/products_mini/product-modern-sofa.jpg" class="img-fluid" alt="">
+          <div class="mt-4">
+            <a href="">Modern Sofa</a>
+            <p class="mt-2">$900.00</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <img src="images/products_mini/product-bed.jpg" class="img-fluid" alt="">
+          <div class="mt-4">
+            <a href="">Bed Linen</a>
+            <p class="mt-2">$79.00</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <img src="images/products_mini/product-shoes.jpg" class="img-fluid" alt="">
+          <div class="mt-4">
+            <a href="">Minimal Shoes</a>
+            <p class="mt-2">$60.00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION PARALLAX -->
+  <div id="sectionParallax" class="mt-5">
+    <div class="parallax"></div>
+    <div class="textParallax text-center">
+      <h1>Discover Thousands Of Great Products</h1>
+      <button type="button" class="btn btn-rose rounded-pill text-light p-3 px-5  mt-4"><small><strong>LEARN
+            MORE</strong> </small>
+      </button>
+    </div>
+    <div class="parallax mb-5"></div>
+  </div>
+
+  <!-- SECTION HOT FASHION PRODUCTS -->
+  <div id="sectionHotFashion" class="text-center text-dark mt-5 mb-4"">
+        <h4>Hot Fashion Products</h4>
     </div>
 
 
 
+  <!-- SECTION DES 3 CARDS -->
+  <div id="sectionCards" class="container-fluid">
+    <div class="row my-5 mx-1">
+      <div class="col-4 text-center">
+        <div class="cardGrise px-5">
+          <div class="card-body">
+            <strong><i class="far fa-check-circle my-5"></i></strong> 
+            <h6 class="card-title mb-4">TRSUTED BY 10,000+ <br> CUSTOMERS</h6>
+            <p class="card-text mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <a href="#" class="btn btn-secondary px-4 py-2 mb-5"><span>LEARN MORE</span> </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 text-center text-light">
+        <div class="card px-5 pb-3">
+          <div class="card-body">
+            <i class="fas fa-paper-plane my-5"></i>
+            <h6 class="card-title mb-4">VERY FAST SHIPPING</h6>
+            <p class="card-text mb-5">Far far away, behind the word mountains, far from the countries Vokalia and
+              Consonantia, there live the blind texts.</p>
+            <a href="#" class="btn btn-secondary px-4 py-2 mb-5 text-dark"><span>LEARN MORE</span> </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 text-center">
+        <div class="cardGrise px-5">
+          <div class="card-body">
+            <strong><i class="far fa-check-circle my-5"></i></strong> 
+            <h6 class="card-title mb-4">TRSUTED BY 10,000+ <br> CUSTOMERS</h6>
+            <p class="card-text mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <a href="#" class="btn btn-secondary px-4 py-2 mb-5"><span>LEARN MORE</span> </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
 
-    <script src="public/js/index.js"></script>
+
+  <!-- SECTION FOOTER -->
+<div class="container-fluid bg-dark">
+  <div class="row">
+    <div class="col-4">
+
+    </div>
+    <div class="col-4">
+
+    </div>
+    <div class="col-4">
+
+    </div>
+  </div>
+</div>
+
+
+  <!-- SECTION COPYRIGHT -->
+  <div id="copyright" class="container-fluid text-center mt-5">
+    <div class=" text-light bg-black">
+      <p>COPYRIGHT 2020 GOODLAYERS, ALL RIGHT RESERVED</p>
+    </div>
+  </div>
+
+
+
+
+  <script src="public/js/index.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </body>
 
 </html>

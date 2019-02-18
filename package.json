@@ -18,5 +18,8 @@
   "homepage": "https://github.com/Souhhh/Site---emporium#readme",
   "dependencies": {
     "bootstrap": "^4.3.0"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.7.2"
   }
 }
