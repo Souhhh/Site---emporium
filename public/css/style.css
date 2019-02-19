@@ -9756,8 +9756,7 @@ nav .divButton {
 
 #sectionParallax .parallax {
   background-image: url("../../images/cta-bg.jpg");
-  min-height: 310px;
-  min-width: 500px;
+  min-height: 25rem;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -9766,8 +9765,8 @@ nav .divButton {
 #sectionParallax .textParallax {
   font-family: poppins bold;
   position: absolute;
+  width: 100%;
   color: white;
-  margin-left: 18rem;
 }
 #sectionParallax .textParallax button {
   background-color: #bd584e;
@@ -9837,6 +9836,59 @@ nav .divButton {
 }
 #sectionCards .card a {
   background: white;
+}
+
+#footer {
+  background-color: #212121;
+}
+#footer p {
+  color: #9b9b9b;
+  font-size: 0.97rem;
+  line-height: 1.7rem;
+  padding-right: 5rem;
+}
+#footer h6 {
+  font-size: 0.85rem;
+}
+#footer .test {
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+#footer ul {
+  padding-left: 0.5rem;
+}
+#footer i {
+  font-size: 0.6rem;
+  color: grey;
+  margin-right: 0.8rem;
+  margin-left: 0.3rem;
+}
+#footer span {
+  font-size: 0.85rem;
+}
+#footer a {
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: #9b9b9b;
+}
+#footer hr {
+  background-color: #4c4c4c;
+}
+#footer .bordures {
+  border-right: solid 1px #4c4c4c;
+  border-left: solid 1px #4c4c4c;
+}
+
+#tagCloud h6 {
+  margin-bottom: 2rem;
+}
+#tagCloud a {
+  font-size: 0.6rem;
+  font-family: poppins bold;
+  border: 1px solid #4c4c4c;
+  padding: 0.7rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
